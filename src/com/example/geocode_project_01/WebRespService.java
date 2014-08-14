@@ -19,12 +19,12 @@ import android.content.Intent;
 
 
 /**
- * Subclass of IntentService that performs of fetching geocode data 
+ * Subclass of <code>IntentService<code> that performs of fetching geocode data 
  * and sending <code>PArcelable</code> geocode data to particular broadcast receivers.
  * 
  * @author naz
  *
- */
+ */<code>
 public class WebRespService extends IntentService {
 	public String SERVICE_NAME = "WebRespService";
 	public static final String SENSOR = "&sensor=false";
