@@ -20,7 +20,7 @@ import android.content.Intent;
 
 /**
  * Subclass of <code>IntentService<code> that performs of fetching geocode data 
- * and sending <code>PArcelable</code> geocode data to particular broadcast receivers.
+ * and sending <code>Parcelable</code> geocode data to particular broadcast receivers.
  * 
  * @author naz
  *
