@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<string name="app_name">Geocode_Project_01</string>
+<string name="button_send">Отправить</string>
+<string name="input_hint">Введите адрес</string>
+<string name="header">Геокодирование</string>
+<string name="success_loading_message">Ответ получен!</string>
+<string name="latitude">"Широта: "</string>
+<string name="longitude">"Долгота: "</string>
+<string name="locale">ru</string>
+<string name="count_results">"Адрес номер "</string>
+<string name="error_validation">Поле поиска пусто!</string>
+<string name="input_required_error_message">Введите адрес!</string>
+</resources>

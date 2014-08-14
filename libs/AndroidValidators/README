@@ -1,0 +1,13 @@
+Validators for android by Rus Wizards (ruswizards.com).
+
+Simple and minimalistic validators that allow to validate multiple condition by one validator, check multiple validators by one call.
+Easily extendable.
+
+To use:
+1. Just copy sources into your project.
+
+To build your own jar:
+1. clone progect from gitHub
+2. Import project into eclipse
+3. In eclipse File->Export->Java jar
+
