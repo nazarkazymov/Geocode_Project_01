@@ -16,7 +16,7 @@ public class WebRespReceiver extends BroadcastReceiver {
 
 	@Override
 	public void onReceive(Context context, Intent intent) {
-		System.out.println("First receiver");
+		
 		String message = intent
 				.getStringExtra(WebRespService.EXTRA_KEY_SUCCESS_REQUEST);
 
