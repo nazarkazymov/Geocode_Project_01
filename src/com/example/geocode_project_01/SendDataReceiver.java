@@ -15,9 +15,10 @@ public class SendDataReceiver extends BroadcastReceiver {
 
 	@Override
 	public void onReceive(Context context, Intent intent) {
-		System.out.println("Second receiver");
+		
 		Parcelable geocodeData = intent
-				.getParcelableExtra(WebRespService.EXTRA_KEY_SEND_DATA);
+				.getParcelableExtra(WebRespService.EXTRA_KEY_SEND_DATA
+				
 		Intent i = new Intent(context, ResponseActivity.class);
 		i.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
 		i.putExtra(WebRespService.EXTRA_KEY_SEND_DATA, geocodeData);
