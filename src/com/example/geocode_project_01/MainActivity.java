@@ -79,7 +79,7 @@ public class MainActivity extends Activity {
 	 * Validate input field, checking is it empty field or not.
 	 * 
 	 * @param address Content of input field
-	 * @return
+	 * @return true if input field is not empty, false otherwise
 	 */
 	private boolean validateInput(String address) {
 		
